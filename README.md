@@ -1,142 +1,118 @@
-# Excel-cafe-shop-project
-Excel Sales Dashboard Project | Pivot Tables, Pivot Charts, Slicers, and Interactive Dashboard using Microsoft Excel to analyze revenue, transactions, and product performance.
-# 📊 Excel Sales Dashboard Project
+# Coffee Shop Sales Analysis (Excel Dashboard)
 
-## 📌 Project Overview
-This project demonstrates how to use Microsoft Excel to transform raw transaction data into meaningful business insights using formulas, PivotTables, PivotCharts, slicers, and an interactive dashboard.
-
-The goal of this project was to analyze sales performance, revenue trends, and product performance across different time periods and store locations.
+## Project Overview
+This project analyzes sales data from a coffee shop to identify key business insights such as peak sales hours, top-selling products, and revenue trends. The goal is to help the business make data-driven decisions to improve operations and increase revenue.
 
 ---
 
-## 🎯 Project Objectives
+## Business Problem
+The coffee shop collects large amounts of transaction data but lacks clear insights into:
 
-The main objectives of this project were:
+- Which products generate the most revenue
+- What time of day sales peak
+- Which store locations perform best
+- Customer purchasing patterns
 
-- Calculate revenue from transaction data
-- Extract time-based insights such as month, day of week, and hour
-- Analyze transactions and revenue using PivotTables
-- Visualize insights using PivotCharts
-- Build an interactive dashboard using slicers
-
----
-
-## 🧮 Data Preparation & Calculations
-
-The following calculated columns were created:
-
-### 1. Revenue Calculation
-A new column was added to calculate revenue using the formula:
-
-Revenue = Quantity × Unit Price
+This project analyzes the data to uncover insights that can help improve business performance.
 
 ---
 
-### 2. Month and Day of Week Extraction
-New columns were created to extract:
+## Dataset
+The dataset includes the following fields:
 
-- Month from Transaction Date
-- Day of Week from Transaction Date
-
-This helps analyze sales trends over time.
-
----
-
-### 3. Hour Extraction
-A new column was created to extract the hour from the transaction time to analyze peak business hours.
-
----
-
-## 📊 PivotTable Analysis
-
-The following PivotTables were created:
-
-### PivotTable 1: Revenue by Month
-- Shows total revenue for each month
-- Helps identify seasonal trends
-
-### PivotTable 2: Transactions by Product Category
-- Shows number of transactions per category
-- Sorted in descending order to identify top categories
-
-### PivotTable 3: Transactions and Revenue by Product Type
-- Shows both revenue and transaction count
-- Sorted descending
-- Top 15 product types filtered for focused analysis
+- Transaction ID
+- Transaction Date
+- Store Location
+- Product Category
+- Product Type
+- Product Size
+- Quantity Sold
+- Unit Price
+- Total Sales
 
 ---
 
-## 📈 PivotChart Visualizations
-
-The following charts were created:
-
-- Line Chart → Revenue by Month
-- Column Chart → Transactions by Day of Week
-- Column Chart → Transactions by Hour of Day
-- Bar Chart → Transactions by Product Category
-
-These charts help visualize trends and patterns clearly.
-
----
-
-## 🎛 Interactive Dashboard Features
-
-An interactive dashboard was created with:
-
-- Multiple PivotCharts
-- Top 15 product types analysis
-- Slicer added for Store Location
-- Slicer connected to all PivotTables and Charts
-
-This allows users to dynamically filter data and analyze performance by location.
-
----
-
-## 📌 Key Insights from Dashboard
-
-- Monthly revenue trends
-- Peak business hours
-- Best performing product categories
-- Top 15 product types
-- Performance comparison across store locations
-
----
-
-## 🛠 Tools Used
+## Tools Used
 
 - Microsoft Excel
-- PivotTables
-- PivotCharts
-- Excel Formulas
-- Slicers
+- Pivot Tables
+- Pivot Charts
+- Data Cleaning
+- Data Visualization
 - Dashboard Design
 
 ---
 
-## 📷 Dashboard Preview
+## Analysis Performed
 
-(Add screenshot here)
+The following analyses were conducted:
 
-Example:
-![Dashboard Screenshot](dashboard.png)
-
----
-
-## 📁 Files Included
-
-- Excel Dashboard File (.xlsx)
-- Dataset
-- Dashboard Screenshot
-- README.md
+- Sales trend analysis
+- Product performance analysis
+- Store location comparison
+- Peak sales hours analysis
+- Category-wise revenue analysis
 
 ---
 
-## 🚀 Skills Demonstrated
+## Key Insights
+
+1. Morning hours between **8 AM and 10 AM** show the highest sales volume.
+
+2. **Coffee beverages generate the largest share of revenue** compared to other categories.
+
+3. **Large-sized drinks contribute significantly to total sales.**
+
+4. Some store locations consistently outperform others in total revenue.
+
+5. Sales show noticeable variation between weekdays and weekends.
+
+---
+
+## Business Recommendations
+
+Based on the analysis, the following actions are recommended:
+
+- Increase staffing during peak morning hours to handle higher demand.
+- Promote top-selling products through marketing campaigns.
+- Introduce bundle offers during low-sales hours to increase traffic.
+- Focus marketing efforts on high-performing store locations.
+- Optimize inventory planning based on product demand patterns.
+
+---
+
+## Dashboard
+
+The Excel dashboard provides interactive insights including:
+
+- Total sales performance
+- Sales by product category
+- Sales by store location
+- Sales trends over time
+- Peak sales hours
+
+---
+
+## Project Files
+
+data/ → Raw dataset  
+dashboard/ → Excel dashboard file  
+images/ → Dashboard preview  
+
+---
+
+## Skills Demonstrated
 
 - Data Cleaning
-- Data Analysis
-- Excel Formulas
-- PivotTables
-- PivotCharts
-- Dashboard Creation
+- Business Data Analysis
+- Excel Pivot Tables
 - Data Visualization
+- Dashboard Development
+- Business Insight Generation
+
+---
+
+## Author
+
+Aman Chhabra  
+Aspiring Data / Business Analyst
